@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+
+
+  <div class="card" id="formCard">               <!--Front-->
+  <div class="form-face">
+      <h2>Login</h2>
+      <input type="text" id="loginUser" placeholder="Username" />
+      <input type="password" id="loginPass" placeholder="Password" />
+      <button onclick="login()">Login</button>
+      <div class="toggle" onclick="flipCard()">Don't have an account? Register</div>
+    </div>
+
+
+    <div class="form-face form-back">                <!-- Back-->
+      <h2>Register</h2>
+      <input type="text" id="regUser" placeholder="New Username" />
+      <input type="email" id="regEmail" placeholder="Email" />
+      <input type="password" id="regPass" placeholder="Create Password" />
+      <button onclick="register()">Register</button>
+      <div class="toggle" onclick="flipCard()">Already have an account? Login</div>
+    </div>
+  </div>
+
+
+  
+
+
+<script src="main.js"></script>
+</body>
+</html>
+
+
+
+</body>
+</html>
